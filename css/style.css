@@ -454,14 +454,20 @@ pre {
   margin-left: auto; }
   @media (min-width: 576px) {
     .container {
-      max-width: 540px; } }
+      max-width: 540px; }
+      
+  }
   @media (min-width: 768px) {
     .container {
       max-width: 720px; } 
-  
+      .col-md-8{
+        margin-left: 150px;
+      }
   @media (min-width: 992px) {
     .container {
-      max-width: 960px; } }
+      max-width: 960px; }
+    
+  }
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; }
@@ -6660,7 +6666,9 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important; }
+  margin-bottom: 5rem !important;
+text-align: center;
+ }
 
 .ml-5,
 .mx-5 {
